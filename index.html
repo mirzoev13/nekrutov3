@@ -757,27 +757,6 @@
     <script src="js/phonemask.js"></script>
     <script src="js/arrow.js"></script>
     <script src="js/modal.js"></script>
-
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const filterButtons = document.querySelectorAll(".filters button");
-            const productCards = document.querySelectorAll(".product-card");
-
-            filterButtons.forEach(button => {
-                button.addEventListener("click", () => {
-                    const filter = button.getAttribute("data-filter");
-
-                    productCards.forEach(card => {
-                        if (filter === "all" || card.getAttribute("data-category") === filter) {
-                            card.style.display = "block";
-                        } else {
-                            card.style.display = "none";
-                        }
-                    });
-                });
-            });
-        });
-    </script>
 </body>
 
 </html>
