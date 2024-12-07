@@ -384,7 +384,7 @@ section h2 {
 }
 /*.......................*/
 header {
-  background-image: url(/images/bg_catalog.png);
+  background-image: url(../images/bg_catalog.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 130px;
